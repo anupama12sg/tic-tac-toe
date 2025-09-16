@@ -1,13 +1,14 @@
 import { useState } from 'react'
-
 import './App.css'
+import TicTacToe from './Components/Assets/TicTacToe/TicTacToe'
 
 function App() {
   
-
   return (
     <>
-      
+      <div>
+        <TicTacToe/>
+      </div>
     </>
   )
 }
