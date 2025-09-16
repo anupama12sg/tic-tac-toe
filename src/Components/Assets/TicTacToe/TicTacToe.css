@@ -1,0 +1,17 @@
+.container {
+    text-align: center;
+}
+
+.title {
+    margin-top: 50px;
+    color: aliceblue;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title span {
+    color: rgb(46, 239, 172);
+    padding-left: 30px;
+}
