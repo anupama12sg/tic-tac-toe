@@ -26,7 +26,6 @@ const TicTacToe = () => {
         }
     }
 
-
     return (
         <div className='container'>
             <h1 className='title'>Tic Tac Toe in <span> React</span></h1>
