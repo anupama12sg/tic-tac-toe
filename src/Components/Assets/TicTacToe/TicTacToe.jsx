@@ -10,7 +10,7 @@ const TicTacToe = () => {
     let [count, setCount] = useState(0);
     let [lock, setLock] = useState(false);
 
-    const toggle = (w, num) => {
+    const toggle = (e, num) => {
         if (lock) {
             return 0;
         }
@@ -20,7 +20,7 @@ const TicTacToe = () => {
             setCount(++count);
         }
         else {
-            e.target.innerHTML = `<img src='${circle_icon}'>`;
+            e.target.innerHTML = `<img src='${zero_icon}'>`;
             data[num] = "o";
             setCount(++count);
         }
